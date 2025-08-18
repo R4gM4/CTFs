@@ -7,20 +7,20 @@
 ___
 # Insider 1
 
-![[Pasted image 20250818140601.png]]
+![](attachment/e7cb35f8aae4e71d82958d1494f64ee9.png)
 
 La première chose à faire était d'aller voir l'équipe du support à cette adresse : 
 - https://play.scriptsorcerers.xyz/support
 
 Il fallait ensuite regarder dans la bio discord d'un des membres du support :
-![[Pasted image 20250818135754.png]]
+![](attachment/d4525b3c1da67959fd9ee792f31226cf.png)
 
 Flag : `scriptCTF{1ts_0bv10u5ly_j0hn_d03_aka_n00bm4573r}`
 
 ___
 # Insider 2
 
-![[Pasted image 20250818140537.png]]
+![](attachment/bf415318bfee7c0abb3e43ceabd41247.png)
 
 Pas fait, mais voici un WU de quelqu'un d'autre : 
 - https://github.com/0xt4req/ScriptCTF-writeup/tree/main/OSINT
@@ -28,13 +28,13 @@ Pas fait, mais voici un WU de quelqu'un d'autre :
 ___
 # Insider 3
 
-![[Pasted image 20250818140629.png]]
+![](attachment/b27af378ccb3a0e6c60739ed6fe319d9.png)
 
 Après avoir découvert qui a leak ainsi que son compte github, ou pouvait voir qu'il a commit d'autres choses sur un autre compte github :
-![[Pasted image 20250818140304.png]]
+![](attachment/43be3fc9b10ac7694d83fbc405e0ee59.png)
 
 En suivant le lien vers cet autre compte, on tombe sur le 3e flag de notre série !
-![[Pasted image 20250818140408.png]]
+![](attachment/0c87a1d600da3f872e8d225f3d9e6eb6.png)
 
 Flag : `scriptCTF{2026_fl4g_f0und_1n_2025}`
 
@@ -43,38 +43,38 @@ ___
 
 On arrive à la dernière étape de notre parcours !
 
-![[Pasted image 20250818140651.png]]
+![](attachment/589bd115615d96b5a6fc1b01fa8471e0.png)
 
 On trouve des informations sur le dernier compte github trouvé :
 
-![[Pasted image 20250818140738.png]]
+![](attachment/faf1c5cfe9a6c10ba229cf14eaec7292.png)
 
 Dans le même dossier `attachments`, on retrouve deux photos ainsi qu'un fichier secret contenant ceci :
 	`as a photographer, i add comments/descriptions to my images`
 
 Première image : `fireworks.jpg`
-![[fireworks.jpg]]
+![](attachment/53e36f126ff5d738eaba45cbfcd8d21d.jpg)
 
 Deuxième image : `room.jpg`
-![[room.jpg]]
+![](attachment/2e7e2819542561b0aa814dbec048a4b2.jpg)
 
 Premièrement, la recherche inversée d'image ne donne rien. Il ne nous reste plus qu'à exploiter le petit secret !
 
 Pour cela, on va utiliser l'outil `exiftool` :
 
-![[Pasted image 20250818164828.png]]
+![](attachment/153ff5cbb6a5c1da48d4facbe466c8cc.png)
 
 Bingo ! La photo `fireworks.jpg` contient bien un commentaire !
 
-![[Pasted image 20250818165016.png]]
+![](attachment/0ec9c67a0aeae5958cf77a387e97203e.png)
 
 En cliquant sur le lien Facebook, on tombe sur cette page :
 
-![[Pasted image 20250818165230.png]]
+![](attachment/8c3f2cfac93098ab8646a65a77835bca.png)
 
 On aperçoit ensuite le site de l'évènement. En allant dessus on peut voir ceci :
 
-![[Pasted image 20250818165325.png]]
+![](attachment/028c45ac9193ac87e8ae5db4c77265b7.png)
 
 Sachant que l'on cherche un hotel, on clique sur `Where to Eat, Stay, & Watch` puis on descend vers `Where to STAY`. On observe deux lieux : 
 - Key Allegro, Real Estate Company
@@ -86,13 +86,13 @@ Si nous revenons sur nos pas, nous n'avons utilisé qu'une seule des deux photos
 Premièrement, on observe la forme de l'hôtel : en forme de `U`, avec un parking devant et quelques tables de picnic. On observe également une terre séparée par de l'eau !
 La seule zone qui peut correspondre est celle-ci :
 
-![[Pasted image 20250818170040.png]]
+![](attachment/702e3a2e155a1c3899e4694d1d5dd5aa.png)
 
 On y retrouve bien *Key Allegro*. Avec une recherche des hôtels faisant face à la baie sur google maps, on a juste à regarder quel hôtel correspond à notre description de la photo `room.jpg`.
 
 On arrive très rapidement à cet endroit :
 
-![[Pasted image 20250818170244.png]]
+![](attachment/25393ab7a92a3242a875324f86437784.png)
 
 Pour visualiser la vue, voici le lien maps : https://www.google.com/maps/@28.0315856,-97.0462669,3a,34.3y,256.27h,87.31t/data=!3m7!1e1!3m5!1scf74P7wpw6ffASoGftMhew!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.6903063287553834%26panoid%3Dcf74P7wpw6ffASoGftMhew%26yaw%3D256.27150613110496!7i16384!8i8192?hl=fr&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D
 
@@ -110,7 +110,7 @@ Ensuite sur la photo `room.jpg`, on observe :
 
 Pour finir, sur le dernier lien maps, lorsqu'on zoom sur la chambre tout à droite, on peut voir ceci :
 
-![[Pasted image 20250818171007.png]]
+![](attachment/91972574d4445ccfd2cff936a30b3c52.png)
 
 Si on regarde avec attention, on peut y lire le numéro `107`.
 Mais ce n'est pas tout, deux chambres sur la gauche se trouve la `109` !

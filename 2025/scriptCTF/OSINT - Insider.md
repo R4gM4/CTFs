@@ -1,10 +1,3 @@
-
-- [[#Insider 1]]
-- [[#Insider 2]]
-- [[#Insider 3]]
-- [[#Insider 4]]
-
-___
 # Insider 1
 
 ![](attachment/e7cb35f8aae4e71d82958d1494f64ee9.png)
@@ -58,7 +51,7 @@ Première image : `fireworks.jpg`
 Deuxième image : `room.jpg`
 ![](attachment/2e7e2819542561b0aa814dbec048a4b2.jpg)
 
-Premièrement, la recherche inversée d'image ne donne rien. Il ne nous reste plus qu'à exploiter le petit secret !
+Premièrement, la recherche inversée d'image ne donne rien. Il ne nous reste donc plus qu'à exploiter le petit secret !
 
 Pour cela, on va utiliser l'outil `exiftool` :
 
@@ -81,9 +74,9 @@ Sachant que l'on cherche un hotel, on clique sur `Where to Eat, Stay, & Watch` p
 - The INN at Fulton Harbor
 
 Ces deux lieux vont nous aider dans notre recherche, surtout le premier.
-Si nous revenons sur nos pas, nous n'avons utilisé qu'une seule des deux photos du challenge : `firework.jpg`. Mais maintenant qu'on a trouvé où chercher, la photo `room.jpg` va grandement nous guider dans cette recherche !
+Si nous revenons sur nos pas, nous n'avons utilisé qu'une seule des deux photos du challenge : `firework.jpg`. Mais maintenant qu'on sait où chercher, la photo `room.jpg` va grandement nous guider pour trouver l'hôtel et la chambre !
 
-Premièrement, on observe la forme de l'hôtel : en forme de `U`, avec un parking devant et quelques tables de picnic. On observe également une terre séparée par de l'eau !
+Premièrement, on observe la forme de l'hôtel : en forme de `U`, avec un parking devant et quelques tables de picnic. On observe également une terre séparée par de l'eau.
 La seule zone qui peut correspondre est celle-ci :
 
 ![](attachment/702e3a2e155a1c3899e4694d1d5dd5aa.png)
@@ -101,7 +94,7 @@ On récupère donc l'adresse de l'hôtel : `901 Hwy 35 N, Rockport, TX 78382, É
 Ainsi on a la première partie du flag !
 - `scriptCTF{901_Hwy_35_N_`
 
-Maintenant, on va se pencher sur le numéro de la chambre. La première observation se fait que le lien maps juste au dessus : 
+Maintenant, on va se pencher sur le numéro de la chambre. La première observation se fait sur le lien maps juste au dessus : 
 - on ne voit pas les numéros de chambres de cet emplacement, il faudra donc aller de l'autre côté, juste ici : https://www.google.com/maps/@28.031457,-97.047378,3a,75y,69.91h,75.94t/data=!3m7!1e1!3m5!1s7RXlB_db0szyw8-FjaD_lA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D14.058045464968231%26panoid%3D7RXlB_db0szyw8-FjaD_lA%26yaw%3D69.91178046392373!7i16384!8i8192?hl=fr&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D
 
 Ensuite sur la photo `room.jpg`, on observe :

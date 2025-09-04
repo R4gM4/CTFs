@@ -1,0 +1,2 @@
+This CTF was focused on forensics challenges, with a bit of crypto and OSINT. I found some of the easy challenges quite hard, and I tried one medium but it didn't succeed. Overall I finished 9th so I'm satisfied but next time I'll crush this thing. I'll come back more prepared !
+If I have the time I'll write notes on other challenges I tried and provide with the source file, if I'm allowed to do so. I don't have all the challenges that were proposed though.

@@ -1,6 +1,0 @@
-- https://ctf.krauq.com/scriptctf-2025
-- https://github.com/scriptCTF/scriptCTF2025-OfficialWriteups
-- https://medium.com/@nomanprodhan/scriptctf-2025-pwn-index-pie-resilient-oob-read-via-hidden-1337-flag-loader-0a264dc4b9c9 - index
-- https://medium.com/@nomanprodhan/scriptctf-2025-index-2-pwn-writeup-6-byte-leak-7-byte-swap-to-flag-9f82cf577d0a - index-2
-- https://medium.com/@suleif/scriptctf2025-vm-writeup-1f38074d7b77
-- 

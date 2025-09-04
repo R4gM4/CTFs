@@ -6,7 +6,7 @@ We have a PNG file, or so I thought :
 
 ![](attachment/2401c297130e3cda1e576c2669dee036.png)
 
-And yes, we have some weird MIME type here :(
+And yes, we have some weird Magic Number here :(
 ![](attachment/b5688f40618fae00b2ba531ea3355071.png)
 
 Let's manually change that by running this command `( printf '\x89PNG\r\n\x1a\n'; tail -c +9 evedence.png ) > fixed.png`. Now we have a real PNG file named `fixed.png` where we'll be getting to work !

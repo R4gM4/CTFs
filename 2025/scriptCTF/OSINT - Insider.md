@@ -51,11 +51,7 @@ First image: `fireworks.jpg`
 Second image: `room.jpg`  
 ![](attachment/2e7e2819542561b0aa814dbec048a4b2.jpg)
 
-<<<<<<< Updated upstream
-Premièrement, la recherche inversée d'image ne donne rien. Il ne nous reste donc plus qu'à exploiter le petit secret !
-=======
-First, reverse image search gives nothing. All we have left is to exploit the little secret!  
->>>>>>> Stashed changes
+First, reverse image search gives nothing. All we have left is to exploit the little secret!
 
 For that, we’re going to use the `exiftool` tool:  
 
@@ -77,19 +73,11 @@ Knowing we’re looking for a hotel, we click on `Where to Eat, Stay, & Watch` t
 - Key Allegro, Real Estate Company  
 - The INN at Fulton Harbor  
 
-<<<<<<< Updated upstream
-Ces deux lieux vont nous aider dans notre recherche, surtout le premier.
-Si nous revenons sur nos pas, nous n'avons utilisé qu'une seule des deux photos du challenge : `firework.jpg`. Mais maintenant qu'on sait où chercher, la photo `room.jpg` va grandement nous guider pour trouver l'hôtel et la chambre !
-
-Premièrement, on observe la forme de l'hôtel : en forme de `U`, avec un parking devant et quelques tables de picnic. On observe également une terre séparée par de l'eau.
-La seule zone qui peut correspondre est celle-ci :
-=======
 These two places help our search, especially the first one.  
 If we go back, we’ve only used one of the two challenge photos: `firework.jpg`. But now that we know where to search, the `room.jpg` photo will guide us a lot in this search!  
 
 First, we observe the shape of the hotel: U-shaped, with a parking lot in front and some picnic tables. We also see land separated by water!  
 The only area that matches is this one:  
->>>>>>> Stashed changes
 
 ![](attachment/702e3a2e155a1c3899e4694d1d5dd5aa.png)
 
@@ -106,13 +94,8 @@ We then retrieve the hotel address: `901 Hwy 35 N, Rockport, TX 78382, United St
 Thus we have the first part of the flag!  
 - `scriptCTF{901_Hwy_35_N_`  
 
-<<<<<<< Updated upstream
-Maintenant, on va se pencher sur le numéro de la chambre. La première observation se fait sur le lien maps juste au dessus : 
-- on ne voit pas les numéros de chambres de cet emplacement, il faudra donc aller de l'autre côté, juste ici : https://www.google.com/maps/@28.031457,-97.047378,3a,75y,69.91h,75.94t/data=!3m7!1e1!3m5!1s7RXlB_db0szyw8-FjaD_lA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D14.058045464968231%26panoid%3D7RXlB_db0szyw8-FjaD_lA%26yaw%3D69.91178046392373!7i16384!8i8192?hl=fr&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D
-=======
 Now, let’s focus on the room number. The first observation comes from the maps link above:  
 - we don’t see the room numbers from this spot, so we have to go to the other side, right here: https://www.google.com/maps/@28.031457,-97.047378,3a,75y,69.91h,75.94t/data=!3m7!1e1!3m5!1s7RXlB_db0szyw8-FjaD_lA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D14.058045464968231%26panoid%3D7RXlB_db0szyw8-FjaD_lA%26yaw%3D69.91178046392373!7i16384!8i8192?hl=fr&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D  
->>>>>>> Stashed changes
 
 Then in the `room.jpg` photo, we observe:  
 - the room is on the ground floor  
